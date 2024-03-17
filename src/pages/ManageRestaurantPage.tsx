@@ -19,7 +19,7 @@ import {
     return (
       <Tabs defaultValue="orders">
         <TabsList>
-          <TabsTrigger value="orders">Orders</TabsTrigger>
+          <TabsTrigger value="orders">My Restaurant's Order</TabsTrigger>
           <TabsTrigger value="manage-restaurant">Manage Restaurant</TabsTrigger>
         </TabsList>
         <TabsContent
