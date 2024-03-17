@@ -22,7 +22,7 @@ https://restaurant-ordering-app-frontend.onrender.com/
 Render - Deploy frontend static web and backend server
 Stripe - Support test checkout 
 Cloudinary - Storing images
-
+Auth0 - Support Authentication (tokens)
 
 ## FullStack Website Structure
 ![](./readme_assets/food-ordering-app-fullstack-structure.jpg)
