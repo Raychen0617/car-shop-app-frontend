@@ -2,8 +2,8 @@ import hero from "../assets/hero.jfif"
 
 const Hero = () => {
     return (
-        <div>
-            <img src={hero} className="w-full max-h-[800px] object-cover"/>
+        <div className="flex justify-center items-center">
+            <img src={hero} className="max-w-[1000px] max-h-[600px] object-cover"/>
         </div>
     );
 };
