@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2024-03-17T22:39:59.016Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="WdDLAafjwNZsTTs8iaL-" version="24.0.7" type="device">
+  <diagram name="Page-1" id="w1Hwar8Bl4cmQcR2Ohpn">
+    <mxGraphModel dx="844" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lmC08MCL2X6EgSpipqs9-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=7;curved=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="lmC08MCL2X6EgSpipqs9-1" target="lmC08MCL2X6EgSpipqs9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmC08MCL2X6EgSpipqs9-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="170" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lmC08MCL2X6EgSpipqs9-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=6;startArrow=classic;startFill=1;" edge="1" parent="1" source="lmC08MCL2X6EgSpipqs9-2" target="lmC08MCL2X6EgSpipqs9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmC08MCL2X6EgSpipqs9-2" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="300" y="154" width="80.47" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="lmC08MCL2X6EgSpipqs9-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;startArrow=classic;startFill=1;" edge="1" parent="1" source="lmC08MCL2X6EgSpipqs9-4" target="lmC08MCL2X6EgSpipqs9-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmC08MCL2X6EgSpipqs9-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=6;exitX=0.308;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="lmC08MCL2X6EgSpipqs9-4" target="lmC08MCL2X6EgSpipqs9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmC08MCL2X6EgSpipqs9-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=6;startArrow=classic;startFill=1;exitX=0.388;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lmC08MCL2X6EgSpipqs9-4" target="lmC08MCL2X6EgSpipqs9-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmC08MCL2X6EgSpipqs9-4" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="620" y="154" width="80.47" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="lmC08MCL2X6EgSpipqs9-7" value="Client" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="65" y="120" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lmC08MCL2X6EgSpipqs9-8" value="Frontend (deployed on Render)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="134" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lmC08MCL2X6EgSpipqs9-9" value="Backend (deployed on Render)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="135" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lmC08MCL2X6EgSpipqs9-10" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/dep/SQL_Server_Stretch_DB.svg;" vertex="1" parent="1">
+          <mxGeometry x="400" y="340" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lmC08MCL2X6EgSpipqs9-11" value="Stripe" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmC08MCL2X6EgSpipqs9-12" value="Cloudinary" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lmC08MCL2X6EgSpipqs9-16" value="MongoDB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="441" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
