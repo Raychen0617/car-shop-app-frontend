@@ -1,5 +1,7 @@
 # Food Ordering System App
 
+![](./src/assets/hero.jpg)
+
 ## Website Demo
 https://restaurant-ordering-app-frontend.onrender.com/
 
@@ -24,3 +26,7 @@ Cloudinary - Storing images
 
 ## FullStack Website Structure
 ![](./readme_assets/food-ordering-app-fullstack-structure.jpg)
+
+
+## Backend servercode
+https://github.com/Raychen0617/restaurant-ordering-app-backend
