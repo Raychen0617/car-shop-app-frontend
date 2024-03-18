@@ -24,7 +24,7 @@ import {
         </TabsList>
         <TabsContent
           value="orders"
-          className="space-y-5 bg-gray-50 p-10 rounded-lg"
+          className="space-y-5 flex-1 bg-gray-50 p-10 rounded-lg"
         >
           <h2 className="text-xl font-bold font-mono">{orders?.length} active orders</h2>
           {orders?.map((order) => (
