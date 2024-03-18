@@ -8,7 +8,7 @@ const Header = () => {
             <div className="container mx-auto flex justify-between items-center">
                 <Link 
                     to ="/"
-                    className="italic font-serif text-3xl font-bold text-black-500 p-2 rounded-lg hover:bg-blue-50"
+                    className="italic font-serif text-3xl font-bold text-black-500 hover:text-blue-500"
                 >
                     RayOrder
                     {/* <img src="./src/assets/only_hero.jpg" className="flex items-center w-14 h-auto rounded-full hover:bg-blue-50"/> */}

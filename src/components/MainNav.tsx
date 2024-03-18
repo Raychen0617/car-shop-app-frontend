@@ -11,11 +11,13 @@ const MainNav = () => {
       <span className="flex space-x-2 items-center">
         {isAuthenticated ? (
           <div className="flex flex-row items-center">
-            <Link to="/favorite">
-              <Star className="border-4 border-transparent hover:border-gray-300 m-3 p-1 hover:text-blue-500" size={60} fill="yellow"/>
+            <Link to="/favorite" className="flex flex-col items-center justify-center hover:text-blue-500 mx-3">
+              <span className="font-mono font-bold text-sm">Fav</span>
+              <Star className="p-1" size={50} fill="yellow"/>
             </Link>
-            <Link to="/cart">
-              <ShoppingCartIcon className="border-4 border-transparent hover:border-gray-300 p-1 hover:text-blue-500" size={60}/>
+            <Link to="/cart" className="flex flex-col items-center justify-center hover:text-blue-500">
+              <span className="font-mono font-bold text-sm">Cart</span>
+              <ShoppingCartIcon className="p-1" size={50}/>
             </Link>
             <UsernameMenu />
           </div>
