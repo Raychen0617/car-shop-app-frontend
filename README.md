@@ -30,3 +30,9 @@ https://restaurant-ordering-app-frontend.onrender.com/
 
 ## Backend servercode
 https://github.com/Raychen0617/restaurant-ordering-app-backend
+
+
+## To Do Features
+- Shopping Cart
+- Favorite Restaurant Dashboard
+- Search By Country

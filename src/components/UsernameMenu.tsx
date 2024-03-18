@@ -16,10 +16,10 @@ const UsernameMenu = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger className="font-mono flex items-center px-3 font-bold hover:text-blue-500 gap-2">
-        <CircleUserRound className="text-blue-500" />
-        {user?.email}
+        <CircleUserRound className="border-4 border-transparent hover:border-gray-300 p-1 hover:text-blue-500" size={60} />
+        {/* {user?.email} */}
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-[300px]">
+      <DropdownMenuContent className="w-[220px]">
         <DropdownMenuItem>
           <Link to="/user-profile" className="font-mono font-bold hover:text-blue-500">
             User Profile

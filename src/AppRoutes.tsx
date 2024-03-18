@@ -8,6 +8,8 @@ import ManageRestaurantPage from "./pages/ManageRestaurantPage";
 import SearchPage from "./pages/SearchPage";
 import DetailPage from "./pages/DetailPage";
 import OrderStatusPage from "./pages/OrderStatus";
+import CartPage from "./pages/CartPage";
+import FavoritePage from "./pages/FavoritePage";
 
 const AppRoutes = ()=>{
     return (
@@ -25,6 +27,22 @@ const AppRoutes = ()=>{
                 element={
                 <Layout showHero={false}>
                     <SearchPage />
+                </Layout>
+                }
+            />
+            <Route
+                path="/cart"
+                element={
+                <Layout showHero={false}>
+                    <CartPage />
+                </Layout>
+                }
+            />
+            <Route
+                path="/favorite"
+                element={
+                <Layout showHero={false}>
+                    <FavoritePage />
                 </Layout>
                 }
             />
