@@ -1,5 +1,4 @@
 import { Order } from "@/type";
-import { Separator } from "./ui/separator";
 
 type Props = {
   order: Order;
@@ -24,11 +23,6 @@ const OrderStatusDetail = ({ order }: Props) => {
             </li>
           ))}
         </ul>
-      </div>
-      <Separator />
-      <div className="flex flex-col">
-        <span className="font-bold">Total</span>
-        <span>US {(order.totalAmount / 100).toFixed(2)}</span>
       </div>
     </div>
   );

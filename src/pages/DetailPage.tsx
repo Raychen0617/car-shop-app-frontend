@@ -19,17 +19,21 @@ export type CartItem = {
 };
 
 const DetailPage = () => {
+  
   const { restaurantId } = useParams();
+  console.log(restaurantId);
   const { restaurant, isLoading } = useGetRestaurant(restaurantId);
   const { createCheckoutSession, isLoading: isCheckoutLoading } = useCreateCheckoutSession();
 
   const [cartItems, setCartItems] = useState<CartItem[]>(() => {
     const storedCartItems = sessionStorage.getItem(`cartItems-${restaurantId}`);
-    return storedCartItems ? JSON.parse(storedCartItems) : [];
+    return storedCartItems ? JSON.parse(storedCartItems) : [];  
   });
 
   const addToCart = (menuItem: MenuItemType) => {
+    
     setCartItems((prevCartItems) => {
+      
       const existingCartItem = prevCartItems.find(
         (cartItem) => cartItem._id === menuItem._id
       );
@@ -60,6 +64,7 @@ const DetailPage = () => {
       );
 
       return updatedCartItems;
+    
     });
   };
 
