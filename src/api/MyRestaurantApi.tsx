@@ -64,11 +64,11 @@ export const useCreateMyRestaurant = () => {
   } = useMutation(createMyRestaurantRequest);
 
   if (isSuccess) {
-    toast.success("Restaurant created!");
+    toast.success("Restaurant created!", {duration: 2000});
   }
 
   if (error) {
-    toast.error("Unable to create restaurant");
+    toast.error("Unable to create restaurant", {duration: 2000});
   }
 
   return { createRestaurant, isLoading };
@@ -105,11 +105,11 @@ export const useUpdateMyRestaurant = () => {
   } = useMutation(updateRestaurantRequest);
 
   if (isSuccess) {
-    toast.success("Restaurant Updated");
+    toast.success("Restaurant Updated", {duration: 2000});
   }
 
   if (error) {
-    toast.error("Unable to update restaurant");
+    toast.error("Unable to update restaurant", {duration: 2000});
   }
 
   return { updateRestaurant, isLoading };
@@ -184,11 +184,11 @@ export const useUpdateMyRestaurantOrder = () => {
   } = useMutation(updateMyRestaurantOrder);
 
   if (isSuccess) {
-    toast.success("Order updated");
+    toast.success("Order updated", {duration: 2000});
   }
 
   if (isError) {
-    toast.error("Unable to update order");
+    toast.error("Unable to update order", {duration: 2000});
     reset();
   }
 

@@ -68,9 +68,15 @@ export const useUpdateMyUser = () =>{
         reset,
     } = useMutation(updateMyUserRequest)
     
-    if (isSuccess){toast.success("User Profile Updated")}
+    if (isSuccess){
+        toast.success("User Profile Updated", {
+            duration: 2000
+        });
+    }
     if (error){
-        toast.error(error.toString());
+        toast.error(error.toString(),{
+            duration: 2000
+        });
         reset();
     }
     
