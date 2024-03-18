@@ -11,7 +11,7 @@ import { Separator } from "./ui/separator";
 import { Button } from "./ui/button";
 
 const UsernameMenu = () => {
-  const { user, logout } = useAuth0();
+  const { logout } = useAuth0();
 
   return (
     <DropdownMenu>
