@@ -4,11 +4,11 @@ import MainNav from "./MainNav";
 
 const Header = () => {
     return (
-        <div className="border-b-2 border-b-blue-500 py-6">
+        <div className="border-b-2 py-6">
             <div className="container mx-auto flex justify-between items-center">
                 <Link 
                     to ="/"
-                    className="text-3xl font-bold tracking-tight text-black-500"
+                    className="font-serif text-3xl font-bold tracking-tight text-black-500"
                 >
                     RayOrder
                 </Link>

@@ -8,8 +8,14 @@ const MobileNavLinks = () => {
 
     return (
         <>
-            <Link to="/user-profile" className="flex bg-white items-center font-bold hover:text-blue-500">
+            <Link to="/order-status" className="font-mono font-bold hover:text-blue-500">
+                Customer Order Status
+            </Link>
+            <Link to="/user-profile" className="flex bg-white items-center font-mono font-bold hover:text-blue-500">
                 User Profile
+            </Link>
+            <Link to="/manage-restaurant" className="flex bg-white items-center font-mono font-bold hover:text-blue-500">
+                Manage Restaurant
             </Link>
             <Button className="flex items-center font-bold px-3 hover:bg-gray-500" onClick={()=>logout()}>
                 Log Out

@@ -19,14 +19,14 @@ import {
     return (
       <Tabs defaultValue="orders">
         <TabsList>
-          <TabsTrigger value="orders">My Restaurant's Order</TabsTrigger>
-          <TabsTrigger value="manage-restaurant">Manage Restaurant</TabsTrigger>
+          <TabsTrigger value="orders" className="font-mono font-bold">My Restaurant's Order</TabsTrigger>
+          <TabsTrigger value="manage-restaurant" className="font-mono font-bold">Manage Restaurant</TabsTrigger>
         </TabsList>
         <TabsContent
           value="orders"
           className="space-y-5 bg-gray-50 p-10 rounded-lg"
         >
-          <h2 className="text-2xl font-bold">{orders?.length} active orders</h2>
+          <h2 className="text-xl font-bold font-mono">{orders?.length} active orders</h2>
           {orders?.map((order) => (
             <OrderItemCard order={order} />
           ))}

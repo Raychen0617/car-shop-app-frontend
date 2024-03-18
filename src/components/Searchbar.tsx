@@ -65,7 +65,7 @@ const SearchBar = ({ onSubmit, onReset, placeHolder, searchQuery }: Props) => {
               <FormControl>
                 <Input
                   {...field}
-                  className="border-none shadow-none text-xl focus-visible:ring-0"
+                  className="font-mono border-none shadow-none text-xl focus-visible:ring-0"
                   placeholder={placeHolder}
                 />
               </FormControl>
@@ -77,11 +77,11 @@ const SearchBar = ({ onSubmit, onReset, placeHolder, searchQuery }: Props) => {
           onClick={handleReset}
           type="button"
           variant="outline"
-          className="rounded-full"
+          className="rounded-full font-mono font-bold "
         >
           Reset
         </Button>
-        <Button type="submit" className="rounded-full bg-blue-500">
+        <Button type="submit" className="font-mono font-bold rounded-full bg-blue-500">
           Search
         </Button>
       </form>
