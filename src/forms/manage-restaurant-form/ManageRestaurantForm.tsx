@@ -57,6 +57,7 @@ type Props = {
 };
 
 const ManageRestaurantForm = ({ onSave, isLoading, restaurant }: Props) => {
+  
   const form = useForm<RestaurantFormData>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -135,7 +136,8 @@ const ManageRestaurantForm = ({ onSave, isLoading, restaurant }: Props) => {
         <MenuSection />
         <Separator />
         <ImageSection />
-        {isLoading ? <LoadingButton /> : <Button type="submit">Submit</Button>}
+        <Separator />
+        {isLoading ? <LoadingButton /> : <Button className="hover:bg-blue-500 font-bold font-mono" type="submit">Submit</Button>}
       </form>
     </Form>
   );
